@@ -14,31 +14,22 @@ namespace Akimov_Onuchin
 
         static double Addition(double a, double b)
         {
-            return a + b;
+            return 0;
         }
 
         static double Subtraction(double a, double b)
         {
-            return a - b;
+            return 0;
         }
 
         static double Divide(double a, double b)
         {
-            if (b != 0)
-                return a / b;
-            else
-            {
-                Console.WriteLine("Error. Return zero\n");
-                return 0;
-            }
+            return 0;
         }
 
         static double numToPow(double a, double b)
         {
-            if (a == 0 && b == 0)
-                return 0;
-            else
-                return Math.Pow(a, b);
+            return 0;
         }
 
         static int Main()
