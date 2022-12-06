@@ -14,7 +14,7 @@ namespace Akimov_Onuchin
 
         static double Addition(double a, double b)
         {
-            return 0;
+            return a + b;
         }
 
         static double Subtraction(double a, double b)
